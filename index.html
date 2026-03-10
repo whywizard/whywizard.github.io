@@ -196,6 +196,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
   }
+  .project-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: 600px; margin: 0 auto; width: 100%;
+  }
 
   .project-card {
     background: var(--surface);
@@ -531,6 +535,27 @@
       </div>
     </a>
 
+    <a href="https://whywizard.github.io/demo-market/" target="_blank" class="project-card">
+      <div class="project-preview preview-5">
+        <div class="mini-browser">
+          <div class="mini-dots"><div class="mini-dot d1"></div><div class="mini-dot d2"></div><div class="mini-dot d3"></div></div>
+          <div class="mini-url">whywizard.github.io/demo-market</div>
+        </div>
+        <span>🛒</span>
+        <div class="mini-arrow">↗</div>
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag tag-blue">Marketplace</span>
+          <span class="tag tag-purple">Web App</span>
+          <span class="tag tag-green">Full Stack</span>
+        </div>
+        <div class="project-name">PixelVault</div>
+        <p class="project-desc">Full digital asset marketplace with buyer, seller and admin panels. Buy/sell icons, templates, UI kits and fonts.</p>
+        <div class="project-link">View Live Site <span>→</span></div>
+      </div>
+    </a>
+
   </div>
 </section>
 
@@ -543,7 +568,7 @@
         <div class="service-icon">🎨</div>
         <div class="service-name">Custom Web Design</div>
         <p class="service-desc">Unique, beautiful websites designed specifically for your brand. No templates — 100% custom.</p>
-        <div class="service-price">From $50</div>
+        <div class="service-price">From $80</div>
       </div>
       <div class="service-item">
         <div class="service-icon">📱</div>
